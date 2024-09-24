@@ -1,0 +1,11 @@
+nav{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: aqua;
+}

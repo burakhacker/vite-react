@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Boek from "./boek";
+import Boek from "./Boek";
 
 const BookList = () => {
 
@@ -17,8 +17,9 @@ const BookList = () => {
     return (
         <section>
             {books.map((book) => (
-                <book title={book.title} author={book.author} image={book.image} />
+                <Boek title={book.title} author={book.author} image={book.Image} />
             ))}
         </section>
     );
 };
+export default BookList
